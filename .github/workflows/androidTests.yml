@@ -10,12 +10,11 @@ on:
 jobs:
   testing:
     name: Lint Check and Testing
-
     runs-on: ubuntu-latest
 
     steps:
       - name: Clone Repo
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
